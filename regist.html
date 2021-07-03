@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人注册</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/regist.css" />
+</head>
+
+<body>
+    <!-- widget header begin -->
+    <div class="header">
+        <div class="logo-con w clearfix">
+            <a href="https://www.jd.com" class="logo"></a>
+            <div class="logo-title">欢迎注册</div>
+            <div class="login-account">
+                已有账号？
+                <a href=".\login.index.html">请登录&gt;</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- widget header end -->
+    <!-- container模块 begin -->
+    <div class="container w">
+        <!-- widget progress-bar begin -->
+        <div class="progress-bar clearfix">
+            <div class="pro-step cur-step">
+                <span class="step-index">1</span>
+                <p class="step-desc">验证手机号</p>
+            </div>
+            <div class="pro-line pro-line1 person-pro-line person-pro-line1">
+            </div>
+            <div class="pro-step pro-step2 person-pro-step2">
+                <span class="step-index">2</span>
+                <p class="step-desc">填写账号信息</p>
+            </div>
+            <div class="pro-line pro-line2 person-pro-line person-pro-line2"> </div>
+            <div class="pro-step pro-step3 person-pro-step3">
+                <span class="step-index">3</span>
+                <div class="step-desc">注册成功</div>
+            </div>
+
+        </div>
+        <!-- widget progress-bar end -->
+        <!-- widget reg-steps begin -->
+        <div class="main">
+            <div class="reg-form">
+                <!-- novalidate属性提交表单时不对表单数据输入进行验证 -->
+                <form action id="regist-form" method="POST" novalidate="novalidate">
+                    <!-- chirome autocomplete off bug hack -->
+                    <!-- 表单隐藏域 提高用户的安全 同时知道用户点击那里 csdn：https://blog.csdn.net/iamduoluo/article/details/6342433?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&spm=1001.2101.3001.4242 -->
+                    <input style="display: none;" name="hack">
+                    <input type="password" style="display: none;" name="hack1">
+                    <!-- hack end -->
+                    <input type="hidden" name="uuid" id="uuid" value="d812c542c4cc465793115fb9551c4049">
+                    <input type="hidden" name="eid" id="eid" value>
+                    <input type="hidden" name="fp" id="sessionId" value="">
+                    <input type="hidden" id="jdcom1" name="jdcom1" value="jdcom11623552932250">
+                    <input type="hidden" id="token" name="QtqrrvXmWQ" value="IhTiW">
+                    <input type="hidden" id="publicKey" name="publicKey" value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbGddyRSw4pUibfpPbekSXfpxHQa4e5p3bPF0dDuMhXq08M1/obrosi6EFo39MI6WuBGmFco8ELtQAQM8yUPnWtYPZgRptKPD2sYzvjjsePMyHx1aGThxqdwrHP8qyKXfiyYbsHoGdW/mWB8CWaG21wgM9LPXX6kVd9ec+GXBCWQIDAQAB">
+                    <input type="hidden" id="source" name="source" value="main">
+                    <input type="hidden" id="closeImageAuthCode" value="${closeImageAuthCode}">
+                    <input type="hidden" id="closeImageAuthCode" value="${closeImageAuthCode}">
+                    <input type="hidden" id="theme" value="${theme}">
+                    <input type="hidden" id="chineseMobilePattern" value="1[3456789]{1}[0-9]{9}">
+                    <input type="hidden" id="sourceDesc" value="">
+                    <input type="hidden" id="tgId" value="">
+                    <input type="hidden" id="closeEmailCheck" value="">
+                    <input type="hidden" id="emailWhiteList" value="@qq.com,@163.com,@126.com,@Gmail.com,@Sohu.com,@Sina.com,@foxmail.com,@yahoo.com,@139.com,@jd.com,@live.com,@live.cn.@188.com,@189.com,@189.cn,@hotmail.com,@21cn.com,@yeah.net,@tom.com,@sogou.com">
+                    <input type="hidden" id="loginUrl" value=".\login.index.html">
+                    <input type="hidden" id="backUrl" value=".\index.html">
+                    <input type="hidden" id="authCodeStrategy" name="authCodeStrategy" value="1">
+                    <input type="hidden" id="en_US" value="false">
+                    <input id="slideAppId" value="16dd32e1eb3" type="hidden">
+                    <input id="slideScene" value="reg" type="hidden">
+                    <input id="slideProduct" value="embed" type="hidden">
+                    <input id="slideWidth" value="100%" type="hidden">
+                    <input id="slidePlaceHolder" value="" type="hidden">
+                    <input id="slideSuccessMsg" value="" type="hidden">
+                    <input type="hidden" id="popupProtocol" value="1">
+                    <!-- 表单隐藏域结束 -->
+                    <div id="step1-wrap">
+                        <div class="item-phone-wrap">
+                            <div class="form-item form-item-phone">
+                                <label class="select-country" id="select-country" country_id="0086">中国 0086<a href="javascript:void(0) " class="arrow"></a></label>
+                                <div class="item-input-wrap">
+                                    <input type="text" id="form-phone" maxlength="11" name="phone" class="field" placeholder="建议使用常用手机号" autocomplete="off" default="<i class='i-def'></i>验证完成后，你可以使用该手机登录或找回密码">
+                                    <i class="i-status"></i>
+                                    <i class="i-cancel"></i>
+                                </div>
+                                <div class="input-tip">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-getcode-wrap">
+                            <div class="form-item form-item-getcode" clstag="pageclick|keycount|reg_puser_201804031|7">
+                                点击按钮进行验证
+                                <div id="slideAuthCode" class="JDValidate-wrap"></div>
+                            </div>
+                            <div class="input-tip">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="item-phonecode-wrap">
+                            <div class="form-item form-item-phonecode">
+                                <div class="phonecode-left">
+                                    <label>手机验证码</label>
+                                    <input type="text" name="mobileCode" maxlength="6" autocomplete="off" id="phoneCode" class="field phonecode" placeholder="输入验证码">
+                                    <i class="i-status"></i>
+                                    <i class="i-cancel"></i>
+                                </div>
+                                <button id="getPhoneCode" class="btn-phonecode" type="button">重新获取</button>
+                                <div class="input-tip">
+                                    <span></span>
+                                </div>
+                                <div class="audio-tip">收不到短信验证码？点击&nbsp;<span class="get-auth-code" clstag="pageclick|keycount|reg_puser_201804031|13">获取语音验证码</span></div>
+                            </div>
+                        </div>
+                        <div class="form-agreen">
+                        </div>
+                        <div id="step1-next" class="btn-register" clstag="pageclick|keycount|reg_puser_201804031|3">下一步</div>
+                    </div>
+                    <div id="step2-wrap">
+                        <div class="form-item form-item-account" id="form-item-account">
+                            <label>用　户　名</label>
+                            <input type="text" id="form-account" _input="true" name="regName" class="field" autocomplete="off" maxlength="20" placeholder="您的账户名和登录名" default="<i class='i-def'></i>支持中文、英文、数字、“-”、“_”的组合，4-20个字符">
+                            <i class="i-status"></i>
+                            <i class="i-cancel"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span></span>
+                        </div>
+                        <div class="form-item">
+                            <label>设 置 密 码</label>
+                            <input autocomplete="off" type="password" name="pwd" id="form-pwd" _input="true" class="field" maxlength="20" placeholder="建议使用两种或两种以上字符组合" default="<i class='i-def'></i>建议使用字母、数字和符号两种及以上的组合，8-20个字符">
+                            <i class="i-status"></i>
+                            <i class="i-cancel"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span></span>
+                        </div>
+                        <div class="form-item">
+                            <label>确 认 密 码</label>
+                            <input type="password" name="pwdRepeat" id="form-equalTopwd" _input="true" class="field" placeholder="请再次输入密码" default="<i class='i-def'></i>请再次输入密码">
+                            <i class="i-status"></i>
+                            <i class="i-cancel"></i>
+                        </div>
+                        <div class="input-tip">
+                            <span></span>
+                        </div>
+                        <div class="item-email-wrap">
+                            <div class="form-item">
+                                <label>邮 箱 验 证</label>
+                                <input type="text" name="email" id="form-email" class="field" autocomplete="off" maxlength="50" placeholder="请输入邮箱" default="<i class='i-def'></i>验证完成后，你可以使用该邮箱登录">
+                                <i class="i-status"></i>
+                            </div>
+                            <div class="input-tip">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="item-mailcode-wrap">
+                            <div class="form-item form-item-mailcode">
+                                <div class="mailcode-left">
+                                    <label>邮箱验证码</label>
+                                    <input type="text" name="mailCode" maxlength="6" autocomplete="off" id="mailCode" class="field mailcode" placeholder="请输入邮箱验证码">
+                                    <i class="i-status"></i>
+                                    <i class="i-cancel"></i>
+                                </div>
+                                <button id="getMailCode" class="btn-mailcode" type="button" clstag="pageclick|keycount|reg_puser_201804031|16">获取验证码</button>
+                                <div class="input-tip">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div><button class="btn-register" id="form-register" _submit="true" clstag="pageclick|keycount|reg_puser_201804031|18">立即注册</button></div>
+                        <div class="input-tip">
+                            <span></span>
+                        </div>
+                        <!--<div class="back-btn" id="back-btn">返回上一步</div>-->
+                    </div>
+                </form>
+            </div>
+
+            <div class="reg-other clearfix">
+                <a href="//reg.jd.com/e/regPage?source=biguser&tgId=S-qtktaHl2k" class="reg-other-item reg-other-person" clstag="pageclick|keycount|reg_puser_201804031|4">
+                    <i class="reg-ohter-icon"></i>企业用户注册 </a>
+                <a href="//reg.jd.com/p/regPage?source=IBG&ReturnUrl=http%3A//hk.jd.com/" class="reg-other-item reg-other-inter" clstag="pageclick|keycount|reg_puser_201804031|5">
+                    <i class="reg-ohter-icon"></i>海外用户注册 </a>
+            </div>
+
+        </div>
+        <!-- widget reg-steps end -->
+
+        <!-- container模块 end -->
+        <!-- widget footer begin -->
+        <div id="form-footer" class="footer w">
+            <div class="links">
+                <a rel="nofollow" target="_blank" href=".\index.html"> 关于我们</a>|
+                <a rel="nofollow" target="_blank" href="https://about.jd.com/contact">联系我们</a>|
+                <a rel="nofollow" target="_blank" href="https://zhaopin.jd.com/home">人才招聘</a>|
+                <a rel="nofollow" target="_blank" href=".\index.html">商家入驻</a>|
+                <a rel="no  follow" target="_blank" href=".\index.html">广告服务</a>|
+                <a rel="nofollow" target="_blank" href="https://app.jd.com/">手机京东</a>|
+                <a target="_blank" href="https://club.jd.com/links.aspx">友情链接</a>|
+                <a target="_blank" href="https://union.jd.com/index">销售联盟</a>|
+                <a href="https://group.jd.com/index/20000001.htm" target="_blank">京东社区</a>|
+                <a href="https://gongyi.jd.com/" target=" _blank ">京东公益</a>|
+                <a target="_blank " href="http://www.joybuy.com/ " clstag="pageclick|keycount|20150112ABD|9 ">English Site</a>
+            </div>
+            <div class="copyright ">
+                Copyright&copy;2004-2021&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+            </div>
+        </div>
+        <!-- widget footer end -->
+        <a class="feedback " href="http://surveys.jd.com/index.php?r=survey/index/sid/447941/lang/zh-Hans " style="margin-top: -67.5px; position: fixed; right: 0px; bottom: 50%; "></a>
+</body>
+
+</html>

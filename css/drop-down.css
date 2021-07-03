@@ -1,0 +1,235 @@
+/* 头部地方下拉模块 */
+
+.place li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.place:hover {
+    background-color: #fff;
+}
+
+.place div {
+    transform: translate(-18px);
+    width: 220px;
+    height: 220px;
+    margin: 10px 10px;
+    font-size: 16px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    z-index: 5;
+}
+
+
+/* 我的京东下拉模块 */
+
+.mjd {
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    position: relative;
+}
+
+.xiala {
+    display: block;
+    z-index: 999;
+    margin-left: 20px;
+}
+
+
+/* .xiala-top {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: absolute;
+     z-index: 6; 
+} */
+
+
+/* .xiala-bottom {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    border-top: 1px solid red;
+    top: 150px;
+    z-index: 7;
+} */
+
+.mjd ul {
+    transform: translate(-18px);
+    width: 230px;
+    height: 100px;
+    margin: 10px 10px;
+    font-size: 12px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+}
+
+.mjd ul li {
+    display: block;
+    float: left;
+}
+
+.mjd:hover {
+    background-color: #fff;
+}
+
+.mjd {
+    font-style: normal;
+    color: #ab9999;
+}
+
+
+/* .xiala-top {
+    border-bottom: 1px solid red;
+} */
+
+
+/* .mjd .xiala-top {
+    border-bottom: 1px solid #ddd;
+}
+
+.mjd .xiala-bottom {
+    padding-top: 10px;
+} */
+
+
+/* 客户服务下拉模块 */
+
+.customer-service {
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    position: relative;
+    font-family: "icomoon";
+    font-style: normal;
+    color: #ab9999;
+    z-index: 7;
+}
+
+.customer-service ul {
+    transform: translate(-38px);
+    width: 130px;
+    height: 170px;
+    margin: 10px 10px;
+    font-size: 16px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 28px;
+}
+
+.customer-service:hover {
+    background-color: #fff;
+}
+
+.left {
+    padding: 10px 10px;
+}
+
+
+/* 导航下拉模块 */
+
+
+/* 可用dl dt dd嵌套h4
+做 width：1250px left：-590px */
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    position: relative;
+    font-family: "icomoon";
+    font-style: normal;
+    color: #ab9999;
+    z-index: 5;
+}
+
+.navigation ul {
+    transform: translate(-441px);
+    width: 500px;
+    /* width: 1250px; */
+    height: 150px;
+    margin: 10px 10px;
+    font-size: 16px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    /* left: -590px; */
+}
+
+.navigation:hover {
+    background-color: #fff;
+}
+
+.appliance dl {
+    transform: translate(170px);
+    top: -10px;
+    width: 1000px;
+    height: 490px;
+    margin: 10px 10px;
+    font-size: 16px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    z-index: 9999;
+    /* white-space: nowrap; */
+}
+
+.xia {
+    float: left;
+    display: block;
+    padding: 5px 10px 0px;
+    font-size: 12px;
+}
+
+.appliance dt {
+    float: left;
+    display: block;
+    padding-top: 15px;
+    margin: 0px;
+    padding-left: 4px;
+    margin-top: -10px;
+    color: #333;
+    font-weight: 700;
+}
+
+.jiadian {
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    position: relative;
+    font-family: "icomoon";
+    font-style: normal;
+    color: #ab9999;
+}
+
+.dianqi dl {
+    transform: translate(170px);
+    top: -10px;
+    width: 999px;
+    height: 480px;
+    margin: 10px 10px;
+    font-size: 16px;
+    display: none;
+    background-color: #6e6568;
+    position: absolute;
+    z-index: 9999;
+}
+
+.jiadian a:hover {
+    background-color: #6e6568;
+}
+
+.wb {
+    padding-left: 5px;
+}
+
+.wbk {
+    margin-top: 4px;
+    margin-left: 5px;
+}

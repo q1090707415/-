@@ -1,0 +1,162 @@
+/*推荐模块*/
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recom-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.recom-bd .last {
+    border-right: 0;
+}
+
+
+/*floor 楼层区*/
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 360px;
+    overflow: hidden;
+}
+
+.w209 {
+    width: 185px;
+    background-color: #f9f9f9;
+    padding-left: 14px;
+}
+
+.w329 {
+    width: 290px;
+}
+
+.w219 {
+    width: 230px;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.w220 {
+    width: 234px;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+    z-index: 10;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    /*过渡写到本身上， 谁做动画，给谁加*/
+    transition: all .2s;
+}
+
+
+/*我们鼠标经过图片 往右走 8px*/
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+
+/*电梯导航*/
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    right: 2%;
+    margin-left: -776px;
+    width: 80px;
+    display: none;
+}
+
+.fixedtool li {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
