@@ -24,9 +24,10 @@
     <script src="js/seckill.js"></script>
     <script src="js/floor.js"></script>
     <!-- <script src="js/scaling problem.js"></script> -->
+
 </head>
 
-<body>
+<body style="overflow:-Scroll;overflow-x:hidden">
     <!-- header部分 start -->
     <header>
         <div class="w top_parts">
@@ -52,6 +53,14 @@
                 function closeWindow(close_button) {
                     var win = document.getElementById(close_button);
                     win.style.display = none
+                }
+            </script> -->
+            <!-- 关闭方法:
+            <script>
+                var btn = document.querySelector('.close_button');
+                var box = document.querySelector('header');
+                btn.onclick = function() {
+                    box.style.display = 'none';
                 }
             </script> -->
 
@@ -276,6 +285,37 @@
                     <button><i></i></button>
                 </div>
             </div>
+            <script>
+                window.addEventListener('load', dd)
+                var photo = document.querySelector('.photo');
+
+                function dd() {
+                    var text = document.querySelector('input');
+                    text.onfocus = function() {
+                        if (this.placeholder === '美度手表') {
+                            this.placeholder = '';
+
+                        }
+                        this.style.color = '#333';
+                        this.type = 'search';
+                        photo.style.display = 'none';
+                    }
+                    text.onblur = function() {
+                        // console.log('失去了焦点');
+                        if (this.placeholder === '') {
+                            this.placeholder = '美度手表';
+                        }
+                        // 失去焦点需要把文本框里面的文字颜色变浅色
+                        this.style.color = '#999';
+                        this.type = 'text';
+                        photo.style.display = 'block';
+
+                    }
+
+
+
+                }
+            </script>
             <!-- 购物车 -->
             <div class="shopCar">
                 <i></i>
@@ -327,6 +367,12 @@
                 </a>
             </div>
         </div>
+        <script>
+            var promo_lk = document.querySelector('.promo_lk');
+            promo_lk.addEventListener('mouseover', function() {
+                promo_lk.style.display = 'none';
+            })
+        </script>
     </div>
     <!-- 中间头部分 end -->
     <!-- 中间分类区域start -->
@@ -3536,7 +3582,7 @@
                 <p>京公网安备 11000002000088号京<span>|</span>ICP备11041704号<span>|</span>互联网药品信息服务资格证编号(京)- 经营性-2014-0008<span>|</span>新出发京零 字第大120007号</p>
                 <p>互联网出版许可证编号新出网证(京)字150号<span>|</span>出版物经营许可证<span>|</span>网络文化经营许可证京网文[2020]6112-1201号<span>|</span>违法和不良信息举报电话:4006561155</p>
                 <p>Copyright&nbsp;©&nbsp;2004&nbsp;-&nbsp;2021&nbsp;&nbsp;京东JD.com&nbsp;版权所有<span>|</span>消费者维权热线:4006067733<span>|</span>&nbsp;&nbsp; 经营证照&nbsp;<span>|</span>(京)网城平台备字(2018)第00003号<span>|</span>营业执照</p>
-                <p>.</p>
+                <p>Global Site<span>|</span>Сайт России<span>|</span>Situs Indonesia<span>|</span>Sitio de España<span>|</span>เว็บไซต์ประเทศไทย</p>
                 <p>京东旗下支付:京东支付<span>|</span>京东云</p>
             </div>
             <p class="foot-icon">

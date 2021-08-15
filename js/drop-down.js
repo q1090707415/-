@@ -1,3 +1,5 @@
+//主页右拉菜单
+
 $(function() {
     $(".mjd,.customer-service,.navigation").hover(function() {
         $(this).find("ul").stop().slideDown(20);

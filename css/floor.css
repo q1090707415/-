@@ -145,13 +145,19 @@
     margin-left: -776px;
     width: 80px;
     display: none;
+    z-index: 4;
 }
 
 .fixedtool li {
-    height: 80px;
-    line-height: 80px;
+    position: relative;
+    width: 38px;
+    display: block;
+    height: 38px;
+    line-height: 19px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 10px;
+    color: #333;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
 }

@@ -573,8 +573,10 @@ ol {
 }
 
 .miao div span {
-    width: 70px;
-    height: 70px;
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
     background: rgba(0, 0, 0, .7);
 }
 
@@ -651,7 +653,8 @@ ol {
     color: #fff;
     position: relative;
 }
-.lunbo ul li div .p1 i{
+
+.lunbo ul li div .p1 i {
     position: absolute;
     width: 0;
     height: 0;

@@ -53,3 +53,19 @@ $(function() {
         autoplay();
     });
 });
+
+//鼠标经过轮播图模块，左右按钮显示，离开隐藏左右按钮
+window.addEventListener('load', function() {
+    var arrow_l = document.querySelector('.arrow-l');
+    var arrow_r = document.querySelector('.arrow-r');
+    var grid_col2 = document.querySelector('.grid-col2-t');
+    //鼠标经过grid-col2就显示隐藏左右按钮
+    grid_col2.addEventListener('mouseenter', function() {
+            arrow_l.style.display = 'block';
+            arrow_r.style.display = 'block';
+        })
+        // grid_col2.addEventListener('mouseleave', function() {
+        //     arrow_l.style.display = 'none';
+        //     arrow_r.style.display = 'none';
+        // })
+})

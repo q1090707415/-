@@ -1,0 +1,75 @@
+.content {
+    position: absolute;
+    width: 1000px;
+    height: 490px;
+    top: 0;
+    left: 185px;
+    border: 1px solid #f7f7f7;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+    display: none;
+}
+
+.channel {
+    height: 24px;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.channel a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 13px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #333;
+    float: left;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.channel a:hover {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.cate_detail {
+    padding: 10px 17px 0 20px;
+    overflow: hidden;
+}
+
+.cate_detail dl {
+    display: block;
+}
+
+.cate_detail dt {
+    width: 67px;
+    float: left;
+    padding-right: 6px;
+    text-align: right;
+}
+
+.cate_detail dt a {
+    color: #333;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.cate_detail div {
+    width: 699px;
+    overflow: hidden;
+}
+
+.cate_detail dd {
+    float: left;
+    margin: 0 7px;
+    height: 22px;
+}
+
+.cate_detail dd a {
+    color: #666;
+    font-size: 12px;
+}
